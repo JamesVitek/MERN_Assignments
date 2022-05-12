@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Pokemon from './components/pokemon';
+import PokemonWithAxios from './components/pokemon_with_axios';
 
 function App() {
   return (
     <div className="App">
-        <Pokemon></Pokemon>
+        <PokemonWithAxios></PokemonWithAxios>
     </div>
   );
 }
